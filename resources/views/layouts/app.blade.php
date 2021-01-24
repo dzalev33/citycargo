@@ -20,6 +20,9 @@
         <li>
             <a href="{{ route('posts') }}" class="p-3">Posts</a>
         </li>
+        <li>
+            <a href="{{ route('clients') }}" class="p-3">Clients</a>
+        </li>
     </ul>
     <ul class="flex items-center">
         @auth
